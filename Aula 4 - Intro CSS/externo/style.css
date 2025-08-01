@@ -1,0 +1,23 @@
+h1{
+    color: aliceblue;
+}
+
+body{
+    background-color:#87CEEB;
+}
+
+header{
+    background-color:#00BFFF;
+}
+
+header> nav > a {
+    text-decoration: none;
+}
+
+section{
+    background-color:#00BFFF;
+}
+
+footer{
+    background-color:#00BFFF;
+}
