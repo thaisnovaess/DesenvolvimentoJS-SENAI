@@ -1,0 +1,40 @@
+header > a {
+    color: #b985c5;
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;    
+}
+
+header{
+    color: azure;
+    text-align: end;
+}
+
+h1{
+    font-family: Courier New;
+    font-size:40px;
+    color: rgb(113, 41, 180);
+    text-align: center;
+}
+
+main > h2 {
+    font-size: large;
+    text-align: center;
+    color: azure;
+}
+
+p{
+    color: azure;
+}
+
+section{
+    color: azure;
+    font-size: medium;
+    line-height: 0.1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: linear-gradient(to right, #000000, #3a0252, #690881)
+}
