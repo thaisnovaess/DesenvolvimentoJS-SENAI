@@ -1,14 +1,14 @@
 body{
     color: azure;
     font-family: 'Courier New', Courier, monospace;
-
+    line-height: 18px;
     background: linear-gradient(to right, #000000, #3a0252, #690881)
 }
 
 h1 {
     font-family: Courier New;
     color: rgb(113, 41, 180);
-    text-align: start;
+    text-align: left;
 }
 
 header {
@@ -20,3 +20,10 @@ main > h2 {
     text-align: center;
 }
 
+p {
+    text-align: justify;
+}
+
+ul {
+    text-align: justify;
+}
