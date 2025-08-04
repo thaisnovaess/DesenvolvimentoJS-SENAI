@@ -20,3 +20,11 @@ main > h2 {
     text-align: center;
 }
 
+header > a {
+    color: #b985c5;
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;    
+}
+
