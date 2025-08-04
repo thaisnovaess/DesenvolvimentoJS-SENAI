@@ -1,0 +1,63 @@
+body{
+    margin: auto;
+    width: 50vw;
+}
+
+#cinza{
+    background-color:#ECF0F1;
+    color: #2C3E50;
+    text-align: center;
+    font-size: 36px;
+}
+
+.vermelho{
+    color: #E74C3C;
+    background-color:#F9EBEA;
+    font-size: 28px;
+}
+
+.paragrafo{ 
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+#titulo-verde{ 
+    background-color: #E9F7EF;
+    color:#27AE60 ;
+    text-align: center;
+    font-size: 36px;
+}
+
+.verde{
+    color: #27AE60;
+    background-color:#E9F7EF ;
+    font-size: 28px;
+}
+
+#titulo-laranja{
+    background-color:#FFF3E6;
+    color:#F39C12;
+    text-align: center;
+    font-size: 36px;
+}
+
+.laranja{
+    color: #F39C12;
+    background-color:#FFF3E6;
+    font-size: 28px;
+}
+
+
+#titulo-roxo{
+    background-color:#F5E6F5;
+    color:#8E44AD;
+    text-align: center;
+    font-size: 36px;
+}
+
+.roxo{
+    background-color:#F5E6F5;
+    color: #8E44AD;
+    font-size: 28px;
+}
