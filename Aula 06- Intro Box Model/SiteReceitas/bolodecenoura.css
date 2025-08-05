@@ -1,18 +1,26 @@
 main{
     text-align: center;
-    padding: 35px;
     border: 1px solid rgba(0, 0, 0, 0.144);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.308);
     border-radius: 15px;
+    padding: 10px;
+    max-width: 50vw;
+}
+
+h2 {
+    text-align: left;
 }
 
 section{
     text-align: left;
-    letter-spacing: 0.3px;
-    line-height: 25px;
+    margin: 20px;
 }
 
 img{
     width: 250px;
     height: 250px;
+}
+
+li {
+    margin: left;
 }

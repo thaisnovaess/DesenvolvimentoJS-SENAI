@@ -45,7 +45,7 @@ nav > a:hover{
 }
 
 main{
-    max-width: 70vw;
+    width: 70vw;
     margin: 50px auto;
 }
 
@@ -68,7 +68,7 @@ section{
 }
 
 img{
-    left: 200px;
+    width: 200px;
     height: 150px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342)
