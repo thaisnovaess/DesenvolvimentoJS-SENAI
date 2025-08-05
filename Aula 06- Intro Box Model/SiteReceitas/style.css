@@ -98,3 +98,7 @@ footer{
     background-color: var(--cor-rodape);
     color: white;
 }
+
+li{
+    margin-left: 35px ;
+}
