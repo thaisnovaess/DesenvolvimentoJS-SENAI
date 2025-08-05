@@ -86,3 +86,13 @@ p{
 div:hover{
      scale: 1.05;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-rodape);
+    color: white;
+}
