@@ -58,6 +58,12 @@ h2{
 div{
     display: inline-block;
     margin: 20px
+
+}
+
+section{
+    margin: auto;
+    width: 80%;
 }
 
 img{
