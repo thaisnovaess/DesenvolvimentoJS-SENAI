@@ -1,0 +1,70 @@
+:root {
+    --cor-cabecalho-inicial:#e75f03d5;
+    --cor-cabecalho-final:#c15d00;
+    --cor-fundo-body: #f5f5f5;
+    --cor-rodape: #333;
+    --cor-main: #FFFFFF;
+    --cor-letras: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor-cabecalho-inicial), var(--cor-cabecalho-final));
+    text-align: center;
+    padding: 25px;
+    color: var(--cor-letras);
+}
+
+header > p {
+    margin: 10px;
+}
+
+nav{
+    margin-top: 30px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor-letras);
+    margin-left: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: var(--cor-cabecalho-final);
+    border-radius: 10px;
+    font-size: 1.1em;
+    margin: 12px;
+    padding: 12px;
+}
+
+main{
+    max-width: 70vw;
+    margin: 50px auto;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+div{
+    display: inline-block;
+    margin: 20px
+}
+
+img{
+    left: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342)
+}
+
+
