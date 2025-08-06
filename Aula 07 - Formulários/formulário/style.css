@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,#00D7FE, #019CFD, #0081CF);
+}
+
+main{
+    margin: 20px auto;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(26, 22, 233, 0.336);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.295) ;
+    max-width: 1000px ;
+} 
+/* caixa */
