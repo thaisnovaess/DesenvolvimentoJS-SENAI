@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <main>
+
+        <form action="">
+            <!-- label cria vinculo -->
+            <label for="estado">ESTADO:</label>
+
+            <select id="estado">
+                <!-- value envia a informação para o banco de dados, botão -->
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="BA">Bahia</option>
+            </select>
+            <br>
+            <br>
+            <br>
+        <label for="genero">Gênero:</label>
+        <label for="masculino"></label>
+        <!-- tag name faz com que os checkboxs sejam do mesmo grupo sendo assim se torna possível selecionar somente 1 opção -->
+         <!--  -->
+        <input type="radio" value="masculino" name="genero">Masculino
+        <!-- label for=feminino vai deixar a opção do feminino clicável.  -->
+        <label for="feminino"></label>
+        <input type="radio" value="feminino"name="genero">Feminino
+
+        </form>
+    </main>
+</body>
+</html>
+
+<!-- ID: JAVASCRIPT e NAME: BANCO DE DADOS -->
+ <!-- type: codigo- password, submit, reser, number, date, text -->
+<!-- for: variável -->
+
+<!-- value: serve para conseguir enviar um valor a partir da opção selecionada, de acordo com o que  usuário selecionar exemplo: ID: ESTADO NAME: ESTADO VALUE: MG, SP, BA... PARA o banco de dados sempre vai ser melhor enviar uma opção menor por exemplo somente as siglas dos estados que o nome do estado inteiro  -->
+
