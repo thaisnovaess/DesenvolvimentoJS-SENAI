@@ -5,5 +5,5 @@ function numeroConta(){
     let raiz = Math.sqrt(numeroInteiro)
 
     let resultado = document.getElementById("resultado")
-    resultado.innerHTML = "  O dobro desse número é " + dobro + "<br>O triplo desse número é " + triplo + "<br>A raiz quadrada desse número é " + raiz 
+    resultado.innerHTML = "  O dobro desse número é " + dobro + "<br>O triplo desse número é " + triplo + "<br>A raiz quadrada desse número é " + raiz.toFixed(2) 
 }
