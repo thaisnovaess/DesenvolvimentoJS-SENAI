@@ -15,7 +15,7 @@ function mostrarResultado(){
 
     } else if (media >= 50){
         
-        let valorNotaRecuperacao = parseInt(notaRecuperacao.value)
+        let valorNotaRecuperacao = parseInt(notaRecuperacao.value);
         let mediaFinal = (media + valorNotaRecuperacao)/2;
 
         if (isNaN(valorNotaRecuperacao)){
@@ -35,9 +35,9 @@ function mostrarResultado(){
     }
 }
 else {
-    resultado.innerHTML = "REPROVADO"
-    resultado.style.color = "red"
-    notaRecuperacao.style.display = "none"
+    resultado.innerHTML = "REPROVADO";
+    resultado.style.color = "red";
+    notaRecuperacao.style.display = "none";
 }
 
     } 
