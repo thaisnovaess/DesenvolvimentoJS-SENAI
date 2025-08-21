@@ -41,5 +41,16 @@ const livrosFantasiaDesconto = livrosFantasia.map(produto => ({
         preco: livros.preco * 0.90,
         categoria: livros.categoria,
     }))
-    
-    
+
+    //a elemento atual e b elemento passado 
+    livros.sort((a,b) => a.titulo.localeCompare(b.titulo))
+    console.log(livros);
+
+//multiplica todos os elementos dentor do array
+const valorTotalEstoque = livros.reduce((total, livro) => {
+    let valor = total + livro.preco * livro.estoque
+    return valor
+
+},0)
+
+console.log(valorTotalEstoque);
