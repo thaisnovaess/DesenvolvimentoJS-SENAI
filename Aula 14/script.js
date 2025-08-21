@@ -24,6 +24,5 @@ console.log(produto);
 //Remover item
 delete produto 
 
-
 //Diferente do array o objeto faz descrição para identificar cada valor salvo, com a {}.
 
